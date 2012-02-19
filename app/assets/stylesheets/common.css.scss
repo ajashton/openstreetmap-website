@@ -19,7 +19,7 @@ body.slim {
 /* Rules for links */
 
 a {
-  color: #00f;
+  color: #06b;
   text-decoration: none;
 }
 
@@ -42,6 +42,40 @@ h2 {
   margin: 5px 0;
   font-size: 25px;
   line-height: 30px;
+}
+
+/* Generic form styles */
+
+input,
+textarea {
+  margin: 5px;
+  line-height: 20px;
+  height: 28px;
+  color: #333;
+  border:1px solid #b3b3b3;
+  border-radius: 3px;
+}
+
+input[type='submit'] {
+  display: inline-block;
+  padding: 4px 20px;
+  font-weight: bold;
+  background-color: #e6e6e6;
+  box-shadow: inset 0px 0px 3px #fff;
+  text-shadow: 0px 1px 0px #fff;
+}
+
+input[type='submit']:hover {
+  color: #333;
+  background-color: #d6d6d6;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'] {
+  padding: 0px 4px;
+  box-shadow: inset 0px 0px 3px #ccc;
 }
 
 /* Rules for the whole left sidebar, including the logo */
@@ -210,11 +244,11 @@ h2 {
 }
 
 #search_field input[type="text"] {
-  width: 136px;
+  width: 126px;
 }
 
 #search_field input[type="submit"] {
-  width: 26px;
+  width: 16px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -999,14 +1033,6 @@ p#contributorGuidance {
 
 .minorNote {
   font-size: 0.8em;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-textarea {
-  border: 1px solid #888;
 }
 
 /* Rules for user images */
